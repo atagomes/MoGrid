@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+
+        <!-- Log4j Levels: ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF -->       
+	
+        <appender name="all-out" class="org.apache.log4j.FileAppender">
+                <param name="Append" value="false"/>       
+		<param name="File" value="/usr/MoGrid/logs/MobileGridLogger.log"/> 
+                <layout class="org.apache.log4j.PatternLayout"> 
+                        <param name="ConversionPattern" value="[%p] (%d): %m%n"/> 
+                </layout> 
+        </appender> 
+        
+        <appender name="info-out" class="org.apache.log4j.ConsoleAppender"> 
+                <layout class="org.apache.log4j.PatternLayout"> 
+                        <param name="ConversionPattern" value="%m%n"/> 
+                </layout> 
+                <filter class="org.apache.log4j.varia.LevelRangeFilter">
+                        <param name="LevelMax" value="info"/>
+                        <param name="LevelMin" value="info"/>
+                        <param name="AcceptOnMatch" value="true"/>
+                </filter>
+        </appender>       
+        
+        <appender name="trace-out" class="org.apache.log4j.FileAppender"> 
+                <param name="Append" value="false"/>       
+		<param name="File" value="/usr/MoGrid/logs/MobileGrid-trace.log"/> 
+                <layout class="org.apache.log4j.PatternLayout"> 
+                        <param name="ConversionPattern" value="[%d] %m%n"/> 
+                </layout> 
+                <filter class="org.apache.log4j.varia.LevelRangeFilter"> 
+                        <param name="LevelMax" value="trace"/>     
+                        <param name="LevelMin" value="trace"/>
+                        <param name="AcceptOnMatch" value="true"/> 
+                </filter>
+        </appender> 
+
+        <appender name="debug-out" class="org.apache.log4j.FileAppender"> 
+                <param name="Append" value="false"/>       
+		<param name="File" value="/usr/MoGrid/logs/MobileGrid-debug.log"/> 
+                <layout class="org.apache.log4j.PatternLayout"> 
+                        <param name="ConversionPattern" value="%m%n"/> 
+                </layout> 
+                <filter class="org.apache.log4j.varia.LevelRangeFilter"> 
+                        <param name="LevelMax" value="debug"/>     
+                        <param name="LevelMin" value="debug"/>
+                        <param name="AcceptOnMatch" value="true"/> 
+                </filter>
+        </appender> 
+        
+        <appender name="error-out" class="org.apache.log4j.FileAppender"> 
+                <param name="Append" value="false"/>       
+		<param name="File" value="/usr/MoGrid/logs/MobileGrid-error.log"/> 
+                <layout class="org.apache.log4j.PatternLayout"> 
+                        <param name="ConversionPattern" value="%m%n"/> 
+                </layout> 
+                <filter class="org.apache.log4j.varia.LevelRangeFilter"> 
+                        <param name="LevelMax" value="error"/>     
+                        <param name="LevelMin" value="error"/>
+                        <param name="AcceptOnMatch" value="true"/> 
+                </filter>
+        </appender> 
+        
+        <appender name="warn-out" class="org.apache.log4j.FileAppender"> 
+                <param name="Append" value="false"/>       
+		<param name="File" value="/usr/MoGrid/logs/MobileGrid-warn.log"/> 
+                <layout class="org.apache.log4j.PatternLayout"> 
+                        <param name="ConversionPattern" value="%m%n"/> 
+                </layout> 
+                <filter class="org.apache.log4j.varia.LevelRangeFilter"> 
+                        <param name="LevelMax" value="warn"/>     
+                        <param name="LevelMin" value="warn"/>
+                        <param name="AcceptOnMatch" value="true"/> 
+                </filter>
+        </appender> 
+        
+                
+        <root> 
+            <level value="all" /> 
+            <appender-ref ref="all-out" /> 
+            <appender-ref ref="info-out" /> 
+            <appender-ref ref="trace-out" />
+            <appender-ref ref="debug-out" /> 
+            <appender-ref ref="error-out" /> 
+            <appender-ref ref="warn-out" /> 
+        </root> 
+        
+</log4j:configuration>

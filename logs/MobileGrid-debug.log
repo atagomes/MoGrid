@@ -1,0 +1,24 @@
+P2PDP Broadcast Connection [/255.255.255.255:50030]
+P2PDP Broadcast Connection [/255.255.255.255:50030]
+Context Listener Connection [localhost:50000]
+Collaborator [146.134.201.193] registered Context Parser class obf.as.
+
+BoT Channel: 
+Port to receive [60010]
+Address to send [0.0.0.0:60010]
+
+> receiveCReplyList IS EMPTY - resubmit IReq
+> resubmit job request java::1156443473715
+> receiveCReplyList IS EMPTY - resubmit IReq
+> resubmit job request java::1156443473715
+> receiveCReplyList IS EMPTY - resubmit IReq
+> receiveCReplyList IS EMPTY - resubmit IReq
+> resubmit job request java::1156443533833
+> receiveCReplyList IS EMPTY - resubmit IReq
+> resubmit job request java::1156443533833
+> receiveCReplyList IS EMPTY - resubmit IReq
+> receiveCReplyList IS EMPTY - resubmit IReq
+> resubmit job request java::1156443593898
+> receiveCReplyList IS EMPTY - resubmit IReq
+> resubmit job request java::1156443593898
+> receiveCReplyList IS EMPTY - resubmit IReq

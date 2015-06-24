@@ -1,0 +1,32 @@
+Configuration Files:
+
+
+MoGridLog4j.xml: 
+> Logging configuration file for log4j.
+CHANGE the path of all lines <param name="File" value=<MOGRID_HOME/logs/...>
+Example: 
+   <param name="File"
+   value=/usr/MoGrid/logs/MobileGridLogger.log"/>
+
+
+DiscoveryProtocol.properties:
+CONTENT:
+coordination.address: broadcast or multicast address for P2PDP comunnication channel
+coordination.port:    P2PDP comunnication channel port
+coordination.scan:    scan interval in milliseconds for P2PDP comunnication channel listen for new messages
+
+DiscoveryProtocol.properties.broadcast: 
+> Example of DiscoveryProtocol.properties file to broadcast
+
+DiscoveryProtocol.properties.multicast: 
+> Example of DiscoveryProtocol.properties file to multicast
+
+
+ContextListener.properties: 
+> Context Listener (CL) configuration file. The CL listen monitor service to free CPU and memory values.
+CONTENT:
+monitor.port: context listener port
+monitor.scan: scan interval in milliseconds to listener for new monitor service info
+
+
+

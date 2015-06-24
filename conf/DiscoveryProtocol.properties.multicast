@@ -1,0 +1,4 @@
+
+coordination.address=230.0.0.30
+coordination.port=50030
+coordination.scan=1000

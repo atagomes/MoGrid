@@ -1,0 +1,73 @@
+[DEBUG] (2006-08-24 15:16:53,087): P2PDP Broadcast Connection [/255.255.255.255:50030]
+[INFO] (2006-08-24 15:16:53,088): Starting Initiator-Coordinator...
+[INFO] (2006-08-24 15:16:53,088): Initiator-Coordinator running.
+
+[DEBUG] (2006-08-24 15:16:53,096): P2PDP Broadcast Connection [/255.255.255.255:50030]
+[INFO] (2006-08-24 15:16:53,096): 
+Starting Collaborator...
+[INFO] (2006-08-24 15:16:53,100): 
+Starting Context Listener...
+[DEBUG] (2006-08-24 15:16:53,103): Context Listener Connection [localhost:50000]
+[INFO] (2006-08-24 15:16:53,103): Context Listener running.
+
+[INFO] (2006-08-24 15:16:53,104): Collaborator running.
+
+[DEBUG] (2006-08-24 15:16:53,107): Collaborator [146.134.201.193] registered Context Parser class obf.as.
+[DEBUG] (2006-08-24 15:16:53,112): 
+BoT Channel: 
+[DEBUG] (2006-08-24 15:16:53,113): Port to receive [60010]
+[DEBUG] (2006-08-24 15:16:53,113): Address to send [0.0.0.0:60010]
+
+[INFO] (2006-08-24 15:16:53,113): Task Submission Channel created.
+[TRACE] (2006-08-24 15:17:53,748): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443473715
+[TRACE] (2006-08-24 15:18:13,764): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443473715
+[INFO] (2006-08-24 15:18:13,765): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:18:13,766): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443473715
+[DEBUG] (2006-08-24 15:18:13,766): > receiveCReplyList IS EMPTY - resubmit IReq
+[DEBUG] (2006-08-24 15:18:13,766): > resubmit job request java::1156443473715
+[TRACE] (2006-08-24 15:18:13,769): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443473715
+[TRACE] (2006-08-24 15:18:33,777): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443473715
+[INFO] (2006-08-24 15:18:33,778): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:18:33,778): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443473715
+[DEBUG] (2006-08-24 15:18:33,778): > receiveCReplyList IS EMPTY - resubmit IReq
+[DEBUG] (2006-08-24 15:18:33,778): > resubmit job request java::1156443473715
+[TRACE] (2006-08-24 15:18:33,781): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443473715
+[TRACE] (2006-08-24 15:18:53,792): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443473715
+[INFO] (2006-08-24 15:18:53,792): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:18:53,793): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443473715
+[DEBUG] (2006-08-24 15:18:53,793): > receiveCReplyList IS EMPTY - resubmit IReq
+[TRACE] (2006-08-24 15:18:53,838): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443533833
+[TRACE] (2006-08-24 15:19:13,847): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443533833
+[INFO] (2006-08-24 15:19:13,848): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:19:13,848): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443533833
+[DEBUG] (2006-08-24 15:19:13,849): > receiveCReplyList IS EMPTY - resubmit IReq
+[DEBUG] (2006-08-24 15:19:13,849): > resubmit job request java::1156443533833
+[TRACE] (2006-08-24 15:19:13,852): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443533833
+[TRACE] (2006-08-24 15:19:33,860): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443533833
+[INFO] (2006-08-24 15:19:33,861): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:19:33,861): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443533833
+[DEBUG] (2006-08-24 15:19:33,861): > receiveCReplyList IS EMPTY - resubmit IReq
+[DEBUG] (2006-08-24 15:19:33,862): > resubmit job request java::1156443533833
+[TRACE] (2006-08-24 15:19:33,867): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443533833
+[TRACE] (2006-08-24 15:19:53,876): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443533833
+[INFO] (2006-08-24 15:19:53,877): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:19:53,878): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443533833
+[DEBUG] (2006-08-24 15:19:53,878): > receiveCReplyList IS EMPTY - resubmit IReq
+[TRACE] (2006-08-24 15:19:53,901): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443593898
+[TRACE] (2006-08-24 15:20:13,910): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443593898
+[INFO] (2006-08-24 15:20:13,910): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:20:13,911): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443593898
+[DEBUG] (2006-08-24 15:20:13,911): > receiveCReplyList IS EMPTY - resubmit IReq
+[DEBUG] (2006-08-24 15:20:13,911): > resubmit job request java::1156443593898
+[TRACE] (2006-08-24 15:20:13,914): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443593898
+[TRACE] (2006-08-24 15:20:33,920): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443593898
+[INFO] (2006-08-24 15:20:33,921): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:20:33,921): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443593898
+[DEBUG] (2006-08-24 15:20:33,921): > receiveCReplyList IS EMPTY - resubmit IReq
+[DEBUG] (2006-08-24 15:20:33,921): > resubmit job request java::1156443593898
+[TRACE] (2006-08-24 15:20:33,924): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443593898
+[TRACE] (2006-08-24 15:20:53,940): > Coordinator [146.134.201.193] sent scheduled message CollaboratorReplyList - reqID: java::1156443593898
+[INFO] (2006-08-24 15:20:53,941): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList
+[TRACE] (2006-08-24 15:20:53,943): < Initiator-Coordinator [146.134.201.193] received from [146.134.201.193] a CollaboratorReplyList - ReqID: java::1156443593898
+[DEBUG] (2006-08-24 15:20:53,943): > receiveCReplyList IS EMPTY - resubmit IReq
+[TRACE] (2006-08-24 15:20:53,978): > Initiator-Coordinator [146.134.201.193] sent a InitiatorRequest message - ReqID: java::1156443653976
